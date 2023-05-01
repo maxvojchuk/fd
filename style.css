@@ -46,9 +46,11 @@ body {
   margin-right: 65px;
   margin-bottom: 130px;
 }
+/*Пррибираємо нижній відступ*/
 .card:nth-child(-n + 2){
   margin-bottom: 0;
 }
+
 .card:nth-child(2n){
    margin-left: -4px;
    margin-right: 0px;
@@ -73,6 +75,7 @@ body {
   font-weight: 400;
   margin-bottom: 40px;
 }
+/*стилі для кнопки*/
 .main-button {
   display: block;
   font-family: "Playfair Display";
