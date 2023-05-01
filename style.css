@@ -43,6 +43,15 @@ body {
 .card {
   display: inline-block;
   width: 420px;
+  margin-right: 65px;
+  margin-bottom: 130px;
+}
+.card:nth-child(-n + 2){
+  margin-bottom: 0;
+}
+.card:nth-child(2n){
+   margin-left: -4px;
+   margin-right: 0px;
 }
 .card-category {
   font-family: "Ubuntu";
@@ -50,16 +59,30 @@ body {
   line-height: 16px;
   color: #b4ad9e;
 }
+.card-img {
+  margin-bottom: 32px;
 
+}
+.card-category {
+  display: block;
+  margin-bottom: 32px;
+}
 .card-title {
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
+  margin-bottom: 40px;
 }
 .main-button {
+  display: block;
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #626262;
+  margin: 90px auto 0;
+  height: 60px;
+  width: 165px;
+  background-color: #fff;
+  
 }
